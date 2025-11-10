@@ -1,30 +1,316 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * South Side RP Custom Styles
+ * Matching the main site theme with dark background, cyan/orange accents, and animations
  */
 
-/* You can override the default Infima variables here. */
+/* South Side RP color palette matching main site */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  /* Primary cyan color from main site */
+  --ifm-color-primary: #00e5ff;
+  --ifm-color-primary-dark: #00cee6;
+  --ifm-color-primary-darker: #00c3d9;
+  --ifm-color-primary-darkest: #00a1b3;
+  --ifm-color-primary-light: #1aebff;
+  --ifm-color-primary-lighter: #33efff;
+  --ifm-color-primary-lightest: #66f3ff;
+
+  /* Orange accent color */
+  --ifm-color-secondary: #ff5722;
+  --ifm-color-secondary-dark: #e64a19;
+  --ifm-color-secondary-darker: #d84315;
+  --ifm-color-secondary-darkest: #bf360c;
+
+  /* Purple accent */
+  --ifm-color-accent: #7b1fa2;
+
+  /* Dark background */
+  --ifm-background-color: #0a0a0a;
+  --ifm-navbar-background-color: rgba(10, 10, 10, 0.95);
+  --ifm-footer-background-color: #0a0a0a;
+
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 229, 255, 0.1);
+
+  /* Font matching main site */
+  --ifm-font-family-base: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --ifm-heading-font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+[data-theme="dark"] {
+  --ifm-color-primary: #00e5ff;
+  --ifm-color-primary-dark: #00cee6;
+  --ifm-color-primary-darker: #00c3d9;
+  --ifm-color-primary-darkest: #00a1b3;
+  --ifm-color-primary-light: #1aebff;
+  --ifm-color-primary-lighter: #33efff;
+  --ifm-color-primary-lightest: #66f3ff;
+
+  --ifm-background-color: #0a0a0a;
+  --ifm-navbar-background-color: rgba(10, 10, 10, 0.95);
+  --ifm-footer-background-color: #0a0a0a;
+  --ifm-font-color-base: #ffffff;
+  --ifm-heading-color: #ffffff;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 229, 255, 0.1);
+}
+
+/* Animated particle background matching main site */
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  background-image: radial-gradient(2px 2px at 20% 30%, #00e5ff, transparent),
+    radial-gradient(2px 2px at 60% 70%, #ff5722, transparent), radial-gradient(1px 1px at 50% 50%, #00e5ff, transparent),
+    radial-gradient(1px 1px at 80% 10%, #ff5722, transparent), radial-gradient(2px 2px at 90% 60%, #00e5ff, transparent),
+    radial-gradient(1px 1px at 33% 80%, #ff5722, transparent);
+  background-size: 200% 200%;
+  background-position: 0% 0%;
+  animation: particleAnimation 20s ease infinite;
+  opacity: 0.6;
+}
+
+@keyframes particleAnimation {
+  0%,
+  100% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+}
+
+/* Hero section styling matching main site */
+.hero {
+  position: relative;
+  background: linear-gradient(135deg, rgba(10, 10, 10, 0.95) 0%, rgba(20, 20, 30, 0.95) 100%);
+  padding: 4rem 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(0, 229, 255, 0.1) 0%, transparent 70%);
+  animation: heroGlow 8s ease-in-out infinite;
+}
+
+@keyframes heroGlow {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(10%, 10%);
+  }
+}
+
+.hero__title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #00e5ff 0%, #ffffff 50%, #ff5722 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 2rem;
+}
+
+/* Button styling matching main site */
+.button--primary {
+  background: #00e5ff;
+  color: #0a0a0a;
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.button--primary:hover {
+  background: #1aebff;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 229, 255, 0.4);
+}
+
+.button--secondary {
+  background: transparent;
+  color: #00e5ff;
+  border: 2px solid #00e5ff;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.button--secondary:hover {
+  background: rgba(0, 229, 255, 0.1);
+  border-color: #1aebff;
+  color: #1aebff;
+  transform: translateY(-2px);
+}
+
+/* Navbar styling */
+.navbar {
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 229, 255, 0.1);
+}
+
+.navbar__logo img {
+  height: 40px;
+}
+
+.navbar__link {
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar__link:hover {
+  color: #00e5ff;
+}
+
+/* Card and content styling */
+.card {
+  background: rgba(20, 20, 30, 0.8);
+  border: 1px solid rgba(0, 229, 255, 0.2);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-color: rgba(0, 229, 255, 0.5);
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 229, 255, 0.2);
+}
+
+/* Stat counters styling matching main site */
+.stats-number {
+  font-size: 3rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #00e5ff 0%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Footer styling */
+.footer {
+  border-top: 1px solid rgba(0, 229, 255, 0.1);
+}
+
+.footer__link-item {
+  transition: color 0.2s ease;
+}
+
+.footer__link-item:hover {
+  color: #00e5ff;
+}
+
+/* Markdown content styling */
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  color: #ffffff;
+}
+
+.markdown h2 {
+  border-bottom: 2px solid rgba(0, 229, 255, 0.3);
+  padding-bottom: 0.5rem;
+}
+
+.markdown a {
+  color: #00e5ff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.markdown a:hover {
+  color: #1aebff;
+  text-decoration: underline;
+}
+
+/* Code blocks */
+.prism-code {
+  background: rgba(20, 20, 30, 0.9) !important;
+  border: 1px solid rgba(0, 229, 255, 0.2);
+}
+
+/* Sidebar styling for docs */
+.menu__link {
+  transition: all 0.2s ease;
+}
+
+.menu__link:hover {
+  background: rgba(0, 229, 255, 0.1);
+  color: #00e5ff;
+}
+
+.menu__link--active {
+  background: rgba(0, 229, 255, 0.15);
+  color: #00e5ff;
+  border-left: 3px solid #00e5ff;
+}
+
+/* Table of contents */
+.table-of-contents__link {
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.2s ease;
+}
+
+.table-of-contents__link:hover,
+.table-of-contents__link--active {
+  color: #00e5ff;
+}
+
+/* Pagination */
+.pagination-nav__link {
+  border: 1px solid rgba(0, 229, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.pagination-nav__link:hover {
+  border-color: #00e5ff;
+  background: rgba(0, 229, 255, 0.05);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Glow effect for emphasized elements */
+.glow-text {
+  text-shadow: 0 0 20px rgba(0, 229, 255, 0.5);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1.2rem;
+  }
 }
