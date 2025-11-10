@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
+  "title": "South Side RP",
+  "tagline": "Experience the most immersive Miami-themed roleplay server on FiveM",
   "favicon": "img/favicon.ico",
   "future": {
     "v4": {
@@ -72,31 +72,36 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "colorMode": {
-      "respectPrefersColorScheme": true,
-      "defaultMode": "light",
+      "defaultMode": "dark",
+      "respectPrefersColorScheme": false,
       "disableSwitch": false
     },
     "navbar": {
-      "title": "My Site",
+      "title": "South Side RP",
       "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "alt": "South Side RP Logo",
+        "src": "img/southside-logo.png"
       },
       "items": [
         {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Tutorial"
+          "label": "Docs"
         },
         {
           "to": "/blog",
-          "label": "Blog",
+          "label": "Updates",
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
+          "href": "https://webdev.southsiderp.co.za",
+          "label": "Main Site",
+          "position": "right"
+        },
+        {
+          "href": "https://discord.gg/southsiderp",
+          "label": "Discord",
           "position": "right"
         }
       ],
@@ -106,10 +111,14 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "Documentation",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "Getting Started",
+              "to": "/docs/intro"
+            },
+            {
+              "label": "Server Rules",
               "to": "/docs/intro"
             }
           ]
@@ -118,16 +127,12 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
               "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "href": "https://discord.gg/southsiderp"
             },
             {
-              "label": "X",
-              "href": "https://x.com/docusaurus"
+              "label": "Main Website",
+              "href": "https://webdev.southsiderp.co.za"
             }
           ]
         },
@@ -135,17 +140,17 @@ export default {
           "title": "More",
           "items": [
             {
-              "label": "Blog",
+              "label": "Updates",
               "to": "/blog"
             },
             {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "label": "Join Server",
+              "href": "https://webdev.southsiderp.co.za#join"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2025 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2025 South Side RP. Built with Docusaurus."
     },
     "prism": {
       "theme": {
