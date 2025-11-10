@@ -27,7 +27,6 @@
   },
   "dependencies": {
     "@docusaurus/core": "3.9.2",
-    "@docusaurus/Link": "latest",
     "@docusaurus/preset-classic": "3.9.2",
     "@docusaurus/useDocusaurusContext": "latest",
     "@mdx-js/react": "^3.0.0",
