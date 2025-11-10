@@ -1,0 +1,24 @@
+{
+  "id": "development/how-to-report-bugs",
+  "title": "how-to-report-bugs",
+  "description": "",
+  "source": "@site/docs/development/how-to-report-bugs.md",
+  "sourceDirName": "development",
+  "slug": "/development/how-to-report-bugs",
+  "permalink": "/docs/development/how-to-report-bugs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/development/how-to-report-bugs.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "contribution-guide",
+    "permalink": "/docs/development/contribution-guide"
+  },
+  "next": {
+    "title": "Gang Overview",
+    "permalink": "/docs/gangs/overview"
+  }
+}

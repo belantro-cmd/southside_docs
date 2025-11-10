@@ -1,0 +1,24 @@
+{
+  "id": "development/contribution-guide",
+  "title": "contribution-guide",
+  "description": "",
+  "source": "@site/docs/development/contribution-guide.md",
+  "sourceDirName": "development",
+  "slug": "/development/contribution-guide",
+  "permalink": "/docs/development/contribution-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/development/contribution-guide.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Development Changelog",
+    "permalink": "/docs/development/changelog"
+  },
+  "next": {
+    "title": "how-to-report-bugs",
+    "permalink": "/docs/development/how-to-report-bugs"
+  }
+}

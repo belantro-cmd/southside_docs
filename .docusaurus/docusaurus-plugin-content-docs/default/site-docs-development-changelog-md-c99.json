@@ -1,0 +1,27 @@
+{
+  "id": "development/changelog",
+  "title": "Development Changelog",
+  "description": "Keep track of major updates, patches, and features added to the city.",
+  "source": "@site/docs/development/changelog.md",
+  "sourceDirName": "development",
+  "slug": "/development/changelog",
+  "permalink": "/docs/development/changelog",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/development/changelog.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Welcome to SouthSide RP",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "contribution-guide",
+    "permalink": "/docs/development/contribution-guide"
+  }
+}

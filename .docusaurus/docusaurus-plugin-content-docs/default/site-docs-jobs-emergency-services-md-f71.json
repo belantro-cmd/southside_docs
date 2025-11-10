@@ -1,0 +1,24 @@
+{
+  "id": "jobs/emergency-services",
+  "title": "emergency-services",
+  "description": "",
+  "source": "@site/docs/jobs/emergency-services.md",
+  "sourceDirName": "jobs",
+  "slug": "/jobs/emergency-services",
+  "permalink": "/docs/jobs/emergency-services",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/jobs/emergency-services.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "business-jobs",
+    "permalink": "/docs/jobs/business-jobs"
+  },
+  "next": {
+    "title": "illegal-activities",
+    "permalink": "/docs/jobs/illegal-activities"
+  }
+}

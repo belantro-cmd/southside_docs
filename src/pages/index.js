@@ -1,54 +1,42 @@
-import clsx from "clsx"
-import Link from "@docusaurus/Link"
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
-import Layout from "@theme/Layout"
-import HomepageFeatures from "@site/src/components/HomepageFeatures"
+import clsx from "clsx";
+import Link from "@docusaurus/Link";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Layout from "@theme/Layout";
+import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
-import Heading from "@theme/Heading"
-import styles from "./index.module.css"
+import Heading from "@theme/Heading";
+import styles from "./index.module.css";
 
 function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext()
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
-        <div className={styles.badge}>🔥 NOW LIVE - JOIN TODAY</div>
         <Heading as="h1" className="hero__title">
-          Welcome to South Side RP
+          South Side RP Documentation
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <p className={styles.heroDescription}>Build your empire, create your story, live the dream.</p>
+        <p className="hero__subtitle">
+          Server rules, guides, and information for our Miami-themed FiveM
+          roleplay community
+        </p>
         <div className={styles.buttons}>
-          <Link className="button button--primary button--lg" to="https://webdev.southsiderp.co.za#join">
-            Join Server
+          <Link className="button button--primary button--lg" to="/docs/intro">
+            Get Started
           </Link>
-          <Link className="button button--secondary button--lg" to="/docs/intro">
-            Read Docs
+          <Link
+            className="button button--secondary button--lg"
+            to="https://webdev.southsiderp.co.za"
+          >
+            Visit Main Site
           </Link>
-        </div>
-
-        {/* Stats section matching main site */}
-        <div className={styles.stats}>
-          <div className={styles.statItem}>
-            <div className="stats-number">500+</div>
-            <div className={styles.statLabel}>Active Players</div>
-          </div>
-          <div className={styles.statItem}>
-            <div className="stats-number">24/7</div>
-            <div className={styles.statLabel}>Server Uptime</div>
-          </div>
-          <div className={styles.statItem}>
-            <div className="stats-number">50+</div>
-            <div className={styles.statLabel}>Custom Jobs</div>
-          </div>
         </div>
       </div>
     </header>
-  )
+  );
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext()
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`Documentation`}
@@ -59,5 +47,5 @@ export default function Home() {
         <HomepageFeatures />
       </main>
     </Layout>
-  )
+  );
 }

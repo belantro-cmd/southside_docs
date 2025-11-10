@@ -1,0 +1,24 @@
+{
+  "id": "gangs/hierarchy",
+  "title": "hierarchy",
+  "description": "",
+  "source": "@site/docs/gangs/hierarchy.md",
+  "sourceDirName": "gangs",
+  "slug": "/gangs/hierarchy",
+  "permalink": "/docs/gangs/hierarchy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/gangs/hierarchy.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gang Overview",
+    "permalink": "/docs/gangs/overview"
+  },
+  "next": {
+    "title": "territory-system",
+    "permalink": "/docs/gangs/territory-system"
+  }
+}

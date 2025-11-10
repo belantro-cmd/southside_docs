@@ -1,0 +1,24 @@
+{
+  "id": "jobs/mechanics",
+  "title": "mechanics",
+  "description": "",
+  "source": "@site/docs/jobs/mechanics.md",
+  "sourceDirName": "jobs",
+  "slug": "/jobs/mechanics",
+  "permalink": "/docs/jobs/mechanics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/jobs/mechanics.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "illegal-activities",
+    "permalink": "/docs/jobs/illegal-activities"
+  },
+  "next": {
+    "title": "City Rules",
+    "permalink": "/docs/rules/city-rules"
+  }
+}
