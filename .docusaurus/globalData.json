@@ -11,33 +11,33 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "development/changelog",
-              "path": "/docs/development/changelog",
+              "id": "Development/changelog",
+              "path": "/docs/Development/changelog",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "development/contribution-guide",
-              "path": "/docs/development/contribution-guide",
+              "id": "Development/contribution-guide",
+              "path": "/docs/Development/contribution-guide",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "development/how-to-report-bugs",
-              "path": "/docs/development/how-to-report-bugs",
+              "id": "Development/how-to-report-bugs",
+              "path": "/docs/Development/how-to-report-bugs",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "gangs/hierarchy",
-              "path": "/docs/gangs/hierarchy",
+              "id": "Gangs/hierarchy",
+              "path": "/docs/Gangs/hierarchy",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "gangs/overview",
-              "path": "/docs/gangs/overview",
+              "id": "Gangs/overview",
+              "path": "/docs/Gangs/overview",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "gangs/territory-system",
-              "path": "/docs/gangs/territory-system",
+              "id": "Gangs/territory-system",
+              "path": "/docs/Gangs/territory-system",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -46,43 +46,43 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "jobs/business-jobs",
-              "path": "/docs/jobs/business-jobs",
+              "id": "Jobs/business-jobs",
+              "path": "/docs/Jobs/business-jobs",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "jobs/emergency-services",
-              "path": "/docs/jobs/emergency-services",
+              "id": "Jobs/emergency-services",
+              "path": "/docs/Jobs/emergency-services",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "jobs/government",
-              "path": "/docs/jobs/government",
+              "id": "Jobs/government",
+              "path": "/docs/Jobs/government",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "jobs/illegal-activities",
-              "path": "/docs/jobs/illegal-activities",
+              "id": "Jobs/illegal-activities",
+              "path": "/docs/Jobs/illegal-activities",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "jobs/mechanics",
-              "path": "/docs/jobs/mechanics",
+              "id": "Jobs/mechanics",
+              "path": "/docs/Jobs/mechanics",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "rules/city-rules",
-              "path": "/docs/rules/city-rules",
+              "id": "Rules/city-rules",
+              "path": "/docs/Rules/city-rules",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "rules/community-guidelines",
-              "path": "/docs/rules/community-guidelines",
+              "id": "Rules/community-guidelines",
+              "path": "/docs/Rules/community-guidelines",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "rules/roleplay-standards",
-              "path": "/docs/rules/roleplay-standards",
+              "id": "Rules/roleplay-standards",
+              "path": "/docs/Rules/roleplay-standards",
               "sidebar": "tutorialSidebar"
             }
           ],

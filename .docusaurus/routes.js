@@ -79,49 +79,49 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'e77'),
+    component: ComponentCreator('/docs', '565'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '3c7'),
+        component: ComponentCreator('/docs', '094'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '0e3'),
+            component: ComponentCreator('/docs', '4a4'),
             routes: [
               {
-                path: '/docs/development/changelog',
-                component: ComponentCreator('/docs/development/changelog', '89c'),
+                path: '/docs/Development/changelog',
+                component: ComponentCreator('/docs/Development/changelog', '8ae'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/development/contribution-guide',
-                component: ComponentCreator('/docs/development/contribution-guide', '1b2'),
+                path: '/docs/Development/contribution-guide',
+                component: ComponentCreator('/docs/Development/contribution-guide', '6c8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/development/how-to-report-bugs',
-                component: ComponentCreator('/docs/development/how-to-report-bugs', 'c84'),
+                path: '/docs/Development/how-to-report-bugs',
+                component: ComponentCreator('/docs/Development/how-to-report-bugs', '368'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/gangs/hierarchy',
-                component: ComponentCreator('/docs/gangs/hierarchy', 'ca4'),
+                path: '/docs/Gangs/hierarchy',
+                component: ComponentCreator('/docs/Gangs/hierarchy', '2f2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/gangs/overview',
-                component: ComponentCreator('/docs/gangs/overview', 'b1c'),
+                path: '/docs/Gangs/overview',
+                component: ComponentCreator('/docs/Gangs/overview', 'de1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/gangs/territory-system',
-                component: ComponentCreator('/docs/gangs/territory-system', '752'),
+                path: '/docs/Gangs/territory-system',
+                component: ComponentCreator('/docs/Gangs/territory-system', '76b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -132,50 +132,50 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/jobs/business-jobs',
-                component: ComponentCreator('/docs/jobs/business-jobs', '6b3'),
+                path: '/docs/Jobs/business-jobs',
+                component: ComponentCreator('/docs/Jobs/business-jobs', 'fd8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/jobs/emergency-services',
-                component: ComponentCreator('/docs/jobs/emergency-services', '3c7'),
+                path: '/docs/Jobs/emergency-services',
+                component: ComponentCreator('/docs/Jobs/emergency-services', '9e7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/jobs/government',
-                component: ComponentCreator('/docs/jobs/government', '8a0'),
+                path: '/docs/Jobs/government',
+                component: ComponentCreator('/docs/Jobs/government', '0f2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/jobs/illegal-activities',
-                component: ComponentCreator('/docs/jobs/illegal-activities', 'f9f'),
+                path: '/docs/Jobs/illegal-activities',
+                component: ComponentCreator('/docs/Jobs/illegal-activities', '67e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/jobs/mechanics',
-                component: ComponentCreator('/docs/jobs/mechanics', '441'),
+                path: '/docs/Jobs/mechanics',
+                component: ComponentCreator('/docs/Jobs/mechanics', '26e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/rules/city-rules',
-                component: ComponentCreator('/docs/rules/city-rules', '20c'),
+                path: '/docs/Rules/city-rules',
+                component: ComponentCreator('/docs/Rules/city-rules', 'f30'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/rules/community-guidelines',
-                component: ComponentCreator('/docs/rules/community-guidelines', '581'),
+                path: '/docs/Rules/community-guidelines',
+                component: ComponentCreator('/docs/Rules/community-guidelines', '88c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/rules/roleplay-standards',
-                component: ComponentCreator('/docs/rules/roleplay-standards', '658'),
+                path: '/docs/Rules/roleplay-standards',
+                component: ComponentCreator('/docs/Rules/roleplay-standards', '919'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

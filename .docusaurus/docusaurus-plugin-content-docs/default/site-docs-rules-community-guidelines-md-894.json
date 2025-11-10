@@ -1,0 +1,24 @@
+{
+  "id": "Rules/community-guidelines",
+  "title": "community-guidelines",
+  "description": "",
+  "source": "@site/docs/Rules/community-guidelines.md",
+  "sourceDirName": "Rules",
+  "slug": "/Rules/community-guidelines",
+  "permalink": "/docs/Rules/community-guidelines",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Rules/community-guidelines.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "City Rules",
+    "permalink": "/docs/Rules/city-rules"
+  },
+  "next": {
+    "title": "roleplay-standards",
+    "permalink": "/docs/Rules/roleplay-standards"
+  }
+}

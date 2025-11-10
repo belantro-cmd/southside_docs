@@ -1,0 +1,24 @@
+{
+  "id": "Jobs/business-jobs",
+  "title": "business-jobs",
+  "description": "",
+  "source": "@site/docs/Jobs/business-jobs.md",
+  "sourceDirName": "Jobs",
+  "slug": "/Jobs/business-jobs",
+  "permalink": "/docs/Jobs/business-jobs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Jobs/business-jobs.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Government Jobs",
+    "permalink": "/docs/Jobs/government"
+  },
+  "next": {
+    "title": "emergency-services",
+    "permalink": "/docs/Jobs/emergency-services"
+  }
+}

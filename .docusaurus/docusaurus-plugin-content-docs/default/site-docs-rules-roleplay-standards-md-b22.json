@@ -1,0 +1,20 @@
+{
+  "id": "Rules/roleplay-standards",
+  "title": "roleplay-standards",
+  "description": "",
+  "source": "@site/docs/Rules/roleplay-standards.md",
+  "sourceDirName": "Rules",
+  "slug": "/Rules/roleplay-standards",
+  "permalink": "/docs/Rules/roleplay-standards",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Rules/roleplay-standards.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "community-guidelines",
+    "permalink": "/docs/Rules/community-guidelines"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "Rules/city-rules",
+  "title": "City Rules",
+  "description": "These are the official SouthSide RP city rules that all players must follow.",
+  "source": "@site/docs/Rules/city-rules.md",
+  "sourceDirName": "Rules",
+  "slug": "/Rules/city-rules",
+  "permalink": "/docs/Rules/city-rules",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Rules/city-rules.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "mechanics",
+    "permalink": "/docs/Jobs/mechanics"
+  },
+  "next": {
+    "title": "community-guidelines",
+    "permalink": "/docs/Rules/community-guidelines"
+  }
+}

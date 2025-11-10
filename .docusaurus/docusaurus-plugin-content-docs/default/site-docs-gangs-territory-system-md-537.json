@@ -1,0 +1,24 @@
+{
+  "id": "Gangs/territory-system",
+  "title": "territory-system",
+  "description": "",
+  "source": "@site/docs/Gangs/territory-system.md",
+  "sourceDirName": "Gangs",
+  "slug": "/Gangs/territory-system",
+  "permalink": "/docs/Gangs/territory-system",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Gangs/territory-system.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "hierarchy",
+    "permalink": "/docs/Gangs/hierarchy"
+  },
+  "next": {
+    "title": "Government Jobs",
+    "permalink": "/docs/Jobs/government"
+  }
+}
